@@ -71,10 +71,13 @@ def main():
     tag_repository(version)
 
     msg = f"""
+    Successfully tagged the code as {version}.
     To push this single tag:
         git push origin {version}
     To push all tags:
         git push --tags
+    To remove this tag:
+        git tag --delete {version}
     """
     print(textwrap.dedent(msg))
     return 0
