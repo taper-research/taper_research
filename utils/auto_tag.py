@@ -38,7 +38,6 @@ def check_tag_exists(tag_name):
     output = subprocess.check_output(
         f"git tag --list {tag_name}", shell=True, cwd=project_root
     ).decode("utf-8")
-    print(output)
     return tag_name in output
 
 
