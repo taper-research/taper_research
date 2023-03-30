@@ -1,0 +1,57 @@
+[project]
+name = "taper_research"  # Required
+version = "0.0.a0"  # Required
+description = "TODO"  # Optional
+readme = "README.md" # Optional
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+keywords = ["development", "TODO"]  # Optional
+authors = [
+  {name = "Taper", email = "soccossopen@gmail.com" } # Optional
+]
+maintainers = [
+  {name = "Taper", email = "soccossopen@gmail.com" } # Optional
+]
+classifiers = [  # Optional
+  # How mature is this project? Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: TODO",
+  "License :: OSI Approved :: GUN v3",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [ # Optional
+
+]
+
+# List additional groups of dependencies here (e.g. development
+# dependencies). Users will be able to install these using the "extras"
+# syntax, for example:
+#
+#   $ pip install sampleproject[dev]
+#
+# Similar to `dependencies` above, these must be valid existing
+# projects.
+[project.optional-dependencies] # Optional
+dev = ["black"]
+test = ["pytest"]
+
+[project.urls]  # Optional
+"Homepage" = "https://github.com/taper-research/taper_research"
+"Bug Reports" = "https://github.com/taper-research/taper_research/issues"
+#"Funding" = "https://donate.pypi.org"
+#"Say Thanks!" = "http://saythanks.io/to/example"
+"Source" = "https://github.com/taper-research/taper_research"
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
