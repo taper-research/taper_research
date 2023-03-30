@@ -1,6 +1,6 @@
 [project]
 name = "taper_research"  # Required
-version = "0.0.a0"  # Required
+version = "0.0.a1"  # Required
 description = "TODO"  # Optional
 readme = "README.md" # Optional
 requires-python = ">=3.9"
